@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form-section {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd; 
+}
+
+.purchase-order-form .form-section {
+  background-color: #f9f9f9; 
+}
+
+.req-section {
+  border: 1px solid #dee2e6;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.talent-details {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #dc3545; 
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.read-only {
+  background-color: #e9ecef;
+}
+
+.remove-req {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.required {
+  color: red;
+}
